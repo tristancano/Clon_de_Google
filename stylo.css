@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+header nav .panel_derecho{
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+
+}
+
+.panel_derecho a{
+    margin-right: 10px;
+    color: black;
+
+}
+
+.panel_derecho .img_puntos {
+    background-image: url("https://static.thenounproject.com/png/756729-200.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 25px;
+
+}
+
+nav .panel_derecho img{
+    border-radius: 50%;
+    margin-left: 10px;
+    width: 34px;
+
+
+}
+
+main{
+    margin-top: 100px;
+    text-align: center;
+}
+
+main .logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .logo{
+    width: 530px;
+}
+
+main .input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+
+}
+
+main .input_container{
+    width: 530px;
+    border-radius: 100px;
+    border: 1px solid #e1e2e6 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .input input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+
+}
+
+main .input_container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+
+}
+
+main .input_container .Busqueda {
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+main .input_container .microfono {
+
+    
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+
+}
+
+main .Botones{
+    width: 530px;
+    margin: 0 auto;
+
+}
+
+
+main .Botones div{
+    display: inline-block;
+}
+
+main .Botones button{
+    height: 36px;
+    background-color: #f8f9fa;
+    border: none;
+    font: size 14px;border-radius: 5px;
+    padding-right: 10px;
+
+}
+
+main .Botones button:hover{
+    border: 1px solid #dadce0;
+    box-shadow: 1px #dadce0;
+    color: #202124;
+
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+
+}
+
+footer .Izquierda{
+    justify-content: left;
+}
+
+footer .Derecha{
+    justify-content: right;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: #5f6368;
+
+}
